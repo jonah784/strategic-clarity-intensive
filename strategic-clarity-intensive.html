@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Strategic Clarity Intensive</title>
+<meta name="description" content="You don't need a plan. You need a north star. A 24-hour intensive in West Marin for operators optimizing for safety." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{--navy:#0e2033;--teal:#2c5661;--horizon:#c9a06b;--paper:#f5f1ea;--ink:#1a1a1a;--muted:#5a5a5a;--line:rgba(14,32,51,0.12)}
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;background:var(--paper);color:var(--ink);font-family:'Inter',system-ui,-apple-system,sans-serif;font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+  a{color:var(--teal);text-decoration:none;border-bottom:1px solid rgba(44,86,97,0.3)}
+  a:hover{border-bottom-color:var(--teal)}
+  h1,h2,h3{font-family:'Fraunces',Georgia,serif;font-weight:500;letter-spacing:-0.01em;color:var(--navy);margin:0}
+  .wrap{max-width:780px;margin:0 auto;padding:0 24px}
+  img{max-width:100%;height:auto;display:block}
+  .hero{position:relative;background:var(--navy) url('img/hero.jpg') center/cover no-repeat;color:var(--paper);padding:140px 0 120px;min-height:600px;display:flex;align-items:center}
+  .hero::before{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(14,32,51,0.75) 0%,rgba(14,32,51,0.35) 45%,rgba(14,32,51,0.65) 100%);z-index:1}
+  .hero .wrap{max-width:820px;position:relative;z-index:2}
+  .kicker{font-family:'Inter',sans-serif;font-size:12px;letter-spacing:0.18em;text-transform:uppercase;color:var(--horizon);margin-bottom:20px}
+  .hero h1{color:var(--paper);font-size:clamp(40px,6.2vw,64px);line-height:1.05;margin-bottom:24px;text-shadow:0 2px 20px rgba(0,0,0,0.3)}
+  .hero .sub{font-size:19px;line-height:1.55;max-width:640px;color:rgba(245,241,234,0.92);margin-bottom:36px;text-shadow:0 1px 8px rgba(0,0,0,0.3)}
+  .cta{display:inline-block;background:var(--horizon);color:var(--navy);font-weight:600;padding:16px 28px;font-size:15px;letter-spacing:0.02em;border:none;border-bottom:none;transition:transform 0.15s ease}
+  .cta:hover{transform:translateY(-1px);border-bottom:none}
+  .hero .meta{margin-top:32px;font-size:13px;color:rgba(245,241,234,0.7);letter-spacing:0.04em}
+  section{padding:80px 0;border-bottom:1px solid var(--line)}
+  section h2{font-size:clamp(28px,3.6vw,38px);line-height:1.15;margin-bottom:28px}
+  section p{margin:0 0 18px}
+  section p:last-child{margin-bottom:0}
+  .pull{background:transparent;padding:64px 0;border-bottom:1px solid var(--line)}
+  .pull blockquote{margin:0;font-family:'Fraunces',Georgia,serif;font-size:clamp(26px,3.6vw,34px);line-height:1.25;color:var(--navy);font-weight:400;letter-spacing:-0.01em}
+  .band{padding:0;border-bottom:1px solid var(--line);background:var(--navy)}
+  .band img{width:100%;display:block;height:auto;max-height:520px;object-fit:cover}
+  .twocol{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center;max-width:1120px;margin:0 auto;padding:0 24px}
+  .twocol .col-img img{width:100%;border-radius:2px}
+  @media (max-width:820px){.twocol{grid-template-columns:1fr;gap:32px}}
+  .symptoms{list-style:none;padding:0;margin:0}
+  .symptoms li{padding:20px 0;border-top:1px solid var(--line);font-family:'Fraunces',Georgia,serif;font-size:20px;line-height:1.35;color:var(--navy)}
+  .symptoms li:last-child{border-bottom:1px solid var(--line)}
+  .leave{list-style:none;padding:0;margin:0}
+  .leave li{display:grid;grid-template-columns:52px 1fr;gap:20px;padding:22px 0;border-top:1px solid var(--line);align-items:baseline}
+  .leave li:last-child{border-bottom:1px solid var(--line)}
+  .leave .n{font-family:'Fraunces',Georgia,serif;font-size:20px;color:var(--horizon);font-weight:500}
+  .leave .t{font-size:17px;line-height:1.5;color:var(--ink)}
+  .arc{display:grid;gap:0}
+  .arc .step{display:grid;grid-template-columns:64px 1fr;gap:24px;padding:24px 0;border-top:1px solid var(--line);align-items:baseline}
+  .arc .step:last-child{border-bottom:1px solid var(--line)}
+  .arc .n{font-family:'Fraunces',Georgia,serif;font-size:22px;color:var(--horizon)}
+  .arc h3{font-size:19px;margin-bottom:6px}
+  .arc .desc{color:var(--muted);font-size:16px;line-height:1.5}
+  .team-note{color:var(--muted);font-style:italic;font-size:15px}
+  details{border-top:1px solid var(--line);padding:20px 0}
+  details:last-of-type{border-bottom:1px solid var(--line)}
+  summary{cursor:pointer;font-family:'Fraunces',Georgia,serif;font-size:19px;color:var(--navy);list-style:none;display:flex;justify-content:space-between;align-items:center;gap:16px}
+  summary::-webkit-details-marker{display:none}
+  summary::after{content:'+';color:var(--horizon);font-size:22px;font-weight:400;flex-shrink:0}
+  details[open] summary::after{content:'–'}
+  details p{margin-top:14px;color:var(--ink);font-size:16px;line-height:1.6}
+  .apply{background:var(--navy);color:var(--paper);padding:88px 0;text-align:left;border-bottom:none}
+  .apply h2{color:var(--paper);font-size:clamp(30px,4vw,40px);margin-bottom:20px}
+  .apply p{color:rgba(245,241,234,0.8);font-size:18px;margin-bottom:32px}
+  footer{padding:40px 0;font-size:13px;color:var(--muted);text-align:left}
+  footer a{color:var(--muted);border-bottom-color:transparent}
+  @media (max-width:600px){
+    .hero{padding:96px 0 80px;min-height:520px}
+    section{padding:60px 0}
+    .pull{padding:48px 0}
+    .arc .step,.leave li{grid-template-columns:44px 1fr;gap:16px}
+    .symptoms li{font-size:18px}
+    .band img{max-height:340px}
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="kicker">Strategic Clarity Intensive</div>
+    <h1>You don't need a plan. You need a north star.</h1>
+    <p class="sub">For the operator who's been optimizing for safety — running someone else's business, working 80-hour weeks, making the money, and quietly wondering if you're missing your shot at your own potential.</p>
+    <a class="cta" href="#apply">Apply now</a>
+    <div class="meta">24 hours · West Marin · 16 seats</div>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2>Who this is for</h2>
+    <ul class="symptoms">
+      <li>Your calendar is full of things someone else put there.</li>
+      <li>You've been telling yourself you'll figure it out after the next raise, the next launch, the next reorg.</li>
+      <li>You are great at what you do. You're no longer sure what you're doing it for.</li>
+      <li>You can work harder — you've proven that. The hardest problem is deciding what deserves your work.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="pull">
+  <div class="wrap">
+    <blockquote>Clarity has time value.</blockquote>
+  </div>
+</section>
+
+<section style="border-bottom:none;padding-bottom:60px">
+  <div class="twocol">
+    <div class="col-text">
+      <h2>24 hours</h2>
+      <p>You go to a private site in West Marin. Phone, watch, laptop, books — none of it comes with you. Neither do meetings, Slack, or anyone else's opinions.</p>
+      <p>You get a structured journal, gear, food, and a field team on site. You don't get advice, distractions, or a way to hide.</p>
+      <p>What you get instead is enough time and enough silence to hear what you actually think.</p>
+    </div>
+    <div class="col-img">
+      <img src="img/journal.jpg" alt="Leather journal open on a weathered wood table with a topographic map, brass pen, ceramic mug, and dried sage" loading="lazy" />
+    </div>
+  </div>
+</section>
+
+<div class="band">
+  <img src="img/bluff.jpg" alt="A figure in a wool overcoat standing at the edge of a coastal bluff at dusk, looking out over the Pacific" loading="lazy" />
+</div>
+
+<section>
+  <div class="wrap">
+    <h2>What you leave with</h2>
+    <ol class="leave">
+      <li><span class="n">01</span><span class="t">Your top five values, embodied.</span></li>
+      <li><span class="n">02</span><span class="t">A rule for when two of them collide.</span></li>
+      <li><span class="n">03</span><span class="t">A decision filter you can pressure-test.</span></li>
+      <li><span class="n">04</span><span class="t">Three specific next moves.</span></li>
+      <li><span class="n">05</span><span class="t">A 30- and 90-day revision method.</span></li>
+    </ol>
+  </div>
+</section>
+
+<section class="pull">
+  <div class="wrap">
+    <blockquote>The wilderness is your mechanism. The product is your direction.</blockquote>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>The arc</h2>
+    <div class="arc">
+      <div class="step"><div class="n">01</div><div><h3>Arrive</h3><div class="desc">Drop devices. Meet the group. Set the frame.</div></div></div>
+      <div class="step"><div class="n">02</div><div><h3>Ground</h3><div class="desc">A guided practice to get out of your head and into the day.</div></div></div>
+      <div class="step"><div class="n">03</div><div><h3>Solo</h3><div class="desc">Hours alone with a structured journal. This is where the work happens.</div></div></div>
+      <div class="step"><div class="n">04</div><div><h3>Return</h3><div class="desc">Come back, eat, share what you're willing to share.</div></div></div>
+      <div class="step"><div class="n">05</div><div><h3>Pressure-test</h3><div class="desc">Put your draft north star in front of the room. Real feedback, no advice.</div></div></div>
+      <div class="step"><div class="n">06</div><div><h3>Commit</h3><div class="desc">Name your next three moves. Schedule your 30- and 90-day review.</div></div></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Who runs it</h2>
+    <p>Rob and Jonah.</p>
+    <p class="team-note">[Approved bios to come.]</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Questions</h2>
+    <details><summary>Is this a retreat?</summary><p>No. A retreat is designed to make you feel good. This is designed to give you a direction. Comfortable, but not comforting.</p></details>
+    <details><summary>Do I need to be in some kind of crisis?</summary><p>No. Most people who come are doing well by every external measure. That's part of the problem — success without direction is its own trap.</p></details>
+    <details><summary>What if I already have a plan?</summary><p>Good. Bring it. Pressure-test it against something bigger than the plan itself.</p></details>
+    <details><summary>Will there be group therapy?</summary><p>No. The group exists to pressure-test your thinking, not to process feelings. You'll be with peers, not patients.</p></details>
+    <details><summary>Who else will be there?</summary><p>Fifteen other operators at similar altitude. We screen for fit and for range — you won't be the only person from your industry, and you won't be surrounded by them either.</p></details>
+    <details><summary>What does it cost?</summary><p>Pricing and dates go out with the acceptance email after we've had a conversation.</p></details>
+    <details><summary>What if I get accepted and something changes?</summary><p>Tell us. We hold seats for people who commit, so we ask you to commit for real — but life happens, and we'd rather know early.</p></details>
+  </div>
+</section>
+
+<section class="apply" id="apply">
+  <div class="wrap">
+    <h2>Apply now</h2>
+    <p>A short form. We read every submission personally and reply within a week.</p>
+    <a class="cta" href="[NOTION_FORM_URL]">Start the application</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">Strategic Clarity Intensive · West Marin</div>
+</footer>
+
+</body>
+</html>
