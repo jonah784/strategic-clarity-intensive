@@ -60,7 +60,9 @@
   .bio-role{font-family:'Inter',sans-serif;font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:var(--horizon);margin-bottom:16px}
   .bio-list{list-style:none;padding:0;margin:0}
   .bio-list li{padding:6px 0;color:var(--ink);font-size:16px;line-height:1.55}
-  .bio-link{display:inline-block;margin-top:16px;font-size:14px;letter-spacing:0.04em;color:var(--teal)}
+  .bio-link{display:inline-block;margin-top:18px;border-bottom:none;line-height:0}
+  .bio-link img{width:22px;height:22px;display:block;opacity:0.7;transition:opacity 0.15s}
+  .bio-link:hover img{opacity:1}
   @media (max-width:600px){.bio{grid-template-columns:1fr;gap:16px}.bio-photo img,.bio-photo-placeholder{width:140px;height:140px}}
   details{border-top:1px solid var(--line);padding:20px 0}
   details:last-of-type{border-bottom:1px solid var(--line)}
@@ -183,7 +185,7 @@
           <li>Facilitates interpersonal dynamics at Stanford's Graduate School of Business.</li>
           <li>Works with hyper-scaling AI cofounders on conflict, negotiation, decision rights, strategy, and the conversations most teams avoid.</li>
         </ul>
-        <a class="bio-link" href="https://www.linkedin.com/in/jonahlarkin/" target="_blank" rel="noopener">LinkedIn →</a>
+        <a class="bio-link" href="https://www.linkedin.com/in/jonahlarkin/" target="_blank" rel="noopener" aria-label="LinkedIn"><img src="img/linkedin.jpg" alt="LinkedIn" /></a>
       </div>
     </div>
     <div class="bio">
@@ -195,7 +197,7 @@
           <li>AMGA · WEMT · 10+ years in remote emergency response · 1,500+ field days · 100+ facilitated solos.</li>
           <li>CBT, Buddhist psychology, and Jungian theory in practice. Focus: values clarity and decisive action.</li>
         </ul>
-        <a class="bio-link" href="https://www.linkedin.com/in/rob-balloch/" target="_blank" rel="noopener">LinkedIn →</a>
+        <a class="bio-link" href="https://www.linkedin.com/in/rob-balloch/" target="_blank" rel="noopener" aria-label="LinkedIn"><img src="img/linkedin.jpg" alt="LinkedIn" /></a>
       </div>
     </div>
   </div>
