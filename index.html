@@ -52,6 +52,15 @@
   .arc h3{font-size:19px;margin-bottom:6px}
   .arc .desc{color:var(--muted);font-size:16px;line-height:1.5}
   .team-note{color:var(--muted);font-style:italic;font-size:15px}
+  .bio{display:grid;grid-template-columns:180px 1fr;gap:36px;padding:32px 0;border-top:1px solid var(--line);align-items:start}
+  .bio:last-of-type{border-bottom:1px solid var(--line)}
+  .bio-photo img{width:180px;height:180px;object-fit:cover;border-radius:2px;display:block}
+  .bio-photo-placeholder{width:180px;height:180px;background:rgba(14,32,51,0.06);border-radius:2px}
+  .bio-text h3{font-size:24px;margin-bottom:6px}
+  .bio-role{font-family:'Inter',sans-serif;font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:var(--horizon);margin-bottom:16px}
+  .bio-list{list-style:none;padding:0;margin:0}
+  .bio-list li{padding:6px 0;color:var(--ink);font-size:16px;line-height:1.55}
+  @media (max-width:600px){.bio{grid-template-columns:1fr;gap:16px}.bio-photo img,.bio-photo-placeholder{width:140px;height:140px}}
   details{border-top:1px solid var(--line);padding:20px 0}
   details:last-of-type{border-bottom:1px solid var(--line)}
   summary{cursor:pointer;font-family:'Fraunces',Georgia,serif;font-size:19px;color:var(--navy);list-style:none;display:flex;justify-content:space-between;align-items:center;gap:16px}
@@ -164,8 +173,25 @@
 <section>
   <div class="wrap">
     <h2>Who runs it</h2>
-    <p>Rob and Jonah.</p>
-    <p class="team-note">[Approved bios to come.]</p>
+    <div class="bio">
+      <div class="bio-photo"><img src="img/jonah.jpg" alt="Jonah Larkin" loading="lazy" /></div>
+      <div class="bio-text">
+        <h3>Jonah Larkin</h3>
+        <div class="bio-role">Former Founder · Stanford GSB Coach & Facilitator</div>
+        <ul class="bio-list">
+          <li>Facilitates interpersonal dynamics at Stanford's Graduate School of Business.</li>
+          <li>Works with hyper-scaling AI cofounders on conflict, negotiation, decision rights, strategy, and the conversations most teams avoid.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="bio">
+      <div class="bio-photo bio-photo-placeholder"></div>
+      <div class="bio-text">
+        <h3>Rob</h3>
+        <div class="bio-role">Co-facilitator</div>
+        <p class="team-note">Bio and headshot to come.</p>
+      </div>
+    </div>
   </div>
 </section>
 
